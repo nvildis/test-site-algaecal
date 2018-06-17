@@ -1,0 +1,206 @@
+/* Scss Document */
+/* Brand Colors */
+/* Web Colors */
+/* Buttons */
+/* Bundles colors */
+/* Scss Document */
+/* Brand Colors */
+/* Web Colors */
+/* Buttons */
+/* Bundles colors */
+/* Google Font - Roboto*/
+@import url("https://fonts.googleapis.com/css?family=Roboto");
+/* line 7, _text.scss */
+body {
+  font-family: "Glober", "Roboto", "Myriad Pro", Helvetica, Arial, "sans-serif";
+  color: #333;
+  font-size: 20px; }
+
+/* line 13, _text.scss */
+h2 {
+  font-size: 39px;
+  font-weight: 700;
+  color: #54b8cd; }
+
+/* line 19, _text.scss */
+h3 a {
+  color: #54b8cd;
+  text-decoration: underline; }
+
+/* line 24, _text.scss */
+h5 {
+  color: #38a33f;
+  font-size: 20px; }
+
+/* line 29, _text.scss */
+table {
+  font-size: 14px; }
+
+/* line 32, _text.scss */
+table strong {
+  font-size: 16px; }
+
+/* line 35, _text.scss */
+table span {
+  font-size: 12px; }
+
+/* line 39, _text.scss */
+footer a {
+  color: #67676e; }
+
+/* line 43, _text.scss */
+.green-btn {
+  font-size: 24.5px;
+  color: #fff; }
+
+/* line 48, _text.scss */
+ol {
+  word-break: break-all; }
+
+/* line 52, _text.scss */
+#guarantee p {
+  font-size: 16px; }
+
+/* line 54, _text.scss */
+#facts h3 {
+  color: #333; }
+
+/* line 58, _text.scss */
+#tap-to-call {
+  font-size: 24px; }
+
+/* line 62, _text.scss */
+#tap-to-call a {
+  color: #54b8cd; }
+
+/* line 66, _text.scss */
+#intro, #intro h2 {
+  color: #fff; }
+
+/* line 70, _text.scss */
+#intro h2:first-child {
+  text-align: center;
+  text-transform: uppercase; }
+
+/* line 75, _text.scss */
+.bundle .card-header {
+  font-size: 25px;
+  font-weight: 700; }
+
+/* line 79, _text.scss */
+.bundle .card-header h5 {
+  font-weight: 400;
+  font-size: 18;
+  color: #54b8cd; }
+
+/* line 84, _text.scss */
+h3.card-text span {
+  font-size: 12px; }
+
+/* line 87, _text.scss */
+p.popular {
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  margin-top: -20px; }
+
+/* line 94, _text.scss */
+p.highlight {
+  background-image: url(../images/highlight.jpg);
+  background-repeat: no-repeat;
+  background-position: center; }
+
+/* line 4, global.scss */
+table {
+  border: 2px solid #000;
+  width: 100%;
+  padding: 4px; }
+
+/* line 9, global.scss */
+table td {
+  padding: 5px; }
+
+/* line 12, global.scss */
+table td.line {
+  padding: 0;
+  background: #000; }
+
+/* line 17, global.scss */
+.container {
+  margin-top: 30px;
+  margin-bottom: 30px; }
+
+/* line 21, global.scss */
+.green-btn {
+  background-color: #38a33f;
+  border-radius: 8px;
+  width: 160px;
+  border-bottom: 10px solid #24865a;
+  padding-left: 50px; }
+
+/* line 28, global.scss */
+.green-btn:after {
+  content: "";
+  background-image: url(../images/7-year-seal.png);
+  display: block;
+  position: absolute;
+  margin: -70px 0 0 -100px;
+  width: 102px;
+  height: 102px; }
+
+/* line 38, global.scss */
+.books {
+  box-shadow: 0 0 5px 5px #ddd;
+  padding: 0;
+  max-width: 350px; }
+
+/* line 44, global.scss */
+.books header {
+  background-color: #38a33f;
+  color: #fff;
+  text-align: center;
+  padding: 10px; }
+
+/* line 51, global.scss */
+#guarantee, #intro {
+  background-image: url(../images/leaf-bkgd.jpg);
+  background-repeat: repeat;
+  padding: 40px; }
+
+/* line 57, global.scss */
+#guarantee div {
+  background: #fff;
+  display: block;
+  padding: 20px; }
+
+/* line 63, global.scss */
+.bundle .card-header {
+  background: none;
+  border: 0; }
+
+/* line 67, global.scss */
+.bundle.popular {
+  border: 10px solid #008ba4;
+  border-top: 20px solid #008ba4;
+  position: relative; }
+
+/* line 72, global.scss */
+.discount {
+  display: block;
+  background-color: #e87b15;
+  color: #fff;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 100%;
+  font-weight: 700;
+  padding: 20px;
+  position: absolute;
+  top: -30px;
+  right: -30px; }
+
+/* line 87, global.scss */
+.discount span {
+  font-size: 14px;
+  margin-top: -10px; }

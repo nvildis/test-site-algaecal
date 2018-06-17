@@ -1,0 +1,90 @@
+@import "color.scss";
+@import "text.scss";
+
+table {
+	border: 2px solid #000;
+	width: 100%;
+	padding: 4px;
+}
+table td {
+	padding: 5px;
+}
+table td.line {
+	padding: 0;
+	background: #000;
+}
+
+.container {
+	margin-top:30px;
+margin-bottom: 30px;}
+
+.green-btn {
+	background-color: $green;
+	border-radius: 8px;
+	width: 160px;
+	border-bottom: 10px solid $darkgreen;
+	padding-left: 50px;
+}
+.green-btn:after {
+  content: "";
+  background-image: url(../images/7-year-seal.png);
+	display: block;
+	position: absolute;
+	margin: -70px 0 0 -100px;
+	width: 102px;
+	height: 102px;
+}
+
+.books {
+	box-shadow: 0 0 5px 5px #ddd;
+	padding: 0;
+	max-width: 350px;
+}
+
+.books header {
+	background-color: $green;
+	color: $white;
+	text-align: center;
+	padding: 10px;	
+}
+
+#guarantee, #intro {
+	background-image: url(../images/leaf-bkgd.jpg);
+	background-repeat: repeat;
+	padding:  40px;
+}
+
+#guarantee div {
+	background: $white;
+	display: block;
+	padding: 20px;
+}
+
+.bundle .card-header {
+	background: none;
+	border: 0;
+}
+.bundle.popular {
+	border: 10px solid $bundleblue;
+	border-top: 20px solid $bundleblue;
+	position: relative;
+}
+.discount {
+	display: block;
+	background-color: $discount;
+	color: $white;
+	width: 80px;
+	height: 80px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 100%;
+	font-weight: 700;
+	padding: 20px;
+	position: absolute;
+	top: -30px;
+	right: -30px;
+}
+.discount span {
+	font-size: 14px;
+	margin-top: -10px;
+}

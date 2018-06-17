@@ -1,0 +1,98 @@
+@import "color.scss";
+$bodyfontsize: 20px;
+
+/* Google Font - Roboto*/
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+	
+body {
+	font-family: "Glober", "Roboto", "Myriad Pro", Helvetica, Arial, "sans-serif";
+	color: $text;
+	font-size: $bodyfontsize;
+}
+
+h2 {
+	font-size: 39px;
+	font-weight: 700;
+	color: $ACblue;
+}
+
+h3 a {
+	color: $ACblue; 
+	text-decoration: underline;
+}
+
+h5 {
+	color: $green;
+	font-size: 20px;
+}
+
+table {
+	font-size: 14px;
+}
+table strong {
+	font-size:16px;
+}
+table span {
+	font-size:12px;
+}
+
+footer a {
+	color: $AClogo;
+}
+
+.green-btn {
+	font-size: 24.5px;
+	color: $white;
+}
+
+ol {
+	word-break: break-all;
+}
+
+#guarantee p {font-size: 16px;}
+
+#facts h3 {
+	color: $text;
+}
+
+#tap-to-call {
+	font-size: 24px;
+}
+
+#tap-to-call a {
+	color: $ACblue;
+}
+
+#intro, #intro h2 {
+	color: $white;
+}
+
+#intro h2:first-child {
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.bundle .card-header {
+	font-size: 25px;
+	font-weight: 700;
+}
+.bundle .card-header h5 {
+	font-weight: 400;
+	font-size: 18;
+	color: $ACblue;	
+}
+h3.card-text span {
+	font-size: 12px;
+}
+p.popular {
+	color: $white;
+	text-align: center;
+	font-size: 14px;
+	margin-top: -20px;
+}
+
+p.highlight {
+	background-image: url(../images/highlight.jpg);
+	background-repeat: no-repeat;
+	background-position: center; 
+}
